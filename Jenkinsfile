@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Test appli @Bachir'
+               sh 'mvn test'
             }
         }
     }
