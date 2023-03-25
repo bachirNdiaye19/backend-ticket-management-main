@@ -4,7 +4,7 @@ node {
   }
 
   stage("Compilation") {
-    sh "./mvnw test"
+    sh "./mvn test"
   }
 
   stage("Tests and Deployment") {
