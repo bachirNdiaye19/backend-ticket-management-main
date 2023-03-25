@@ -4,12 +4,6 @@ node {
   }
 
   stage("Compilation") {
-    echo "test"
-  }
-
-  stage("Tests and Deployment") {
-    stage("Runing unit tests") {
-      sh "./mvnw test -Punit"
-    }
+    sh "mvn test"
   }
 }
