@@ -16,7 +16,7 @@ public class Ticket {
     private String description;
     private String etatTicket="En traitement";
 
-//Constructeurs
+//Constructeurs pour Test
 
     public Ticket() {
     }
