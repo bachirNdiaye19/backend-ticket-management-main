@@ -4,6 +4,6 @@ node {
   }
 
   stage("Compilation") {
-    sh "mvn spring-boot:run"
+    sh "maven spring-boot:run"
   }
 }
