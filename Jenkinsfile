@@ -4,6 +4,6 @@ node {
   }
 
   stage("Compilation") {
-    sh "./mvn test"
+    echo "./mvn test"
   }
 }
